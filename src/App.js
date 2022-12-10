@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+import {Switch, Route} from 'react-router-dom'
+
 import './App.css';
+import Home from './pages/home';
+import Perfil from './pages/perfil';
+import Project from './pages/project';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Flavio Andrade <code>src/App.js</code> initial services
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Switch>
+        <Route exact path="/" component={Home}></Route>
+        <Route path="/perfil" component={Perfil}></Route>
+        <Route path="/project" component={Project}></Route>
+      </Switch>
     </div>
   );
 }
