@@ -1,5 +1,5 @@
 import React from 'react';
-import {Routes, Route } from 'react-router-dom'
+import {Switch, Route } from 'react-router-dom'
 import './App.css';
 import Home from './pages/home';
 import NotFound from './pages/notFound';
@@ -9,12 +9,14 @@ import Project from './pages/project';
 function App() {
   return (
     <div className="App">
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/perfil" element={<Perfil/>} />
-        <Route path="/project" element={<Project/>} />
-        <Route path="*" element={<NotFound />} />
-      </Routes>
+
+        <Switch>
+          <Route exact path="/" component={ Home } />
+          <Route exact path="/perfil" component={ Perfil } />
+          <Route exact path="/project" component={ Project } />
+          <Route exact path="*" component={ NotFound } />
+        </Switch>
+
     </div>
   );
 }
