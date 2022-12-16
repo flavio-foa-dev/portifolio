@@ -8,7 +8,7 @@ import Project from './pages/project';
 
 function App() {
   return (
-    <div className="App">
+    <div className="">
 
         <Switch>
           <Route exact path="/" component={ Home } />
