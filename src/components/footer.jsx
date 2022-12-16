@@ -1,8 +1,6 @@
 import React from 'react'
 import { CiLinkedin, CiYoutube, CiFacebook, CiInstagram } from 'react-icons/ci'
 import { VscGithubInverted } from 'react-icons/vsc'
-import { GrLinkedin } from 'react-icons/gr'
-
 
 export default function Footer() {
   return (
