@@ -3,8 +3,8 @@ import {Switch, Route } from 'react-router-dom'
 import './App.css';
 import Home from './pages/home';
 import NotFound from './pages/notFound';
-import Perfil from './pages/perfil';
 import Project from './pages/project';
+import Tools from './pages/tools';
 
 function App() {
   return (
@@ -12,7 +12,7 @@ function App() {
 
         <Switch>
           <Route exact path="/" component={ Home } />
-          <Route exact path="/perfil" component={ Perfil } />
+          <Route exact path="/perfil" component={ Tools } />
           <Route exact path="/project" component={ Project } />
           <Route exact path="*" component={ NotFound } />
         </Switch>

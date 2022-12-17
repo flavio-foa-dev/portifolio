@@ -8,7 +8,7 @@ export default function Footer() {
 
       <div className="container flex items-center justify-between py-6 px-4 ">
 
-        <p className="text-center font-bold text-white" >© Copyright 2022. All right reserved, FOA. </p>
+        <p className="text-center font-bold text-white" >© Copyright 2022. All right reserved, FOA </p>
 
         <div id="contact" className="flex items-center gap-2">
           <a href="/" className="text-white  hover:text-red-600"><CiYoutube size="34px"/></a>

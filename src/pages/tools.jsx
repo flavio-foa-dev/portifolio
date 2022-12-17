@@ -3,14 +3,12 @@ import Footer from '../components/footer'
 import Header from '../components/navBar'
 import Project from './project'
 
-export default function Perfil() {
+export default function Tools() {
   return (
+
     <>
-      <Header/>
-
-      <Project/>
-
-      <Footer/>
+      <h1>perfil</h1>
     </>
+
   )
 }

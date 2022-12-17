@@ -13,28 +13,25 @@ export default function NavBar() {
           <ul className="flex items-center">
 
             <li className="group pl-6">
-              <span className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white hover:border-b-2">Perfil</span>
+              <span className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white hover:border-b-2"><a href="#/">Perfil</a></span>
             </li>
 
             <li className="group pl-6">
-              <span className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white hover:border-b-2">Projects</span>
+              <span className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white hover:border-b-2"><a href="#project">Project</a></span>
             </li>
 
             <li className="group pl-6">
-              <span className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white hover:border-b-2">Tools</span>
+              <span className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white hover:border-b-2"><a href="#contact">Contact</a></span>
             </li>
 
             <li className="group pl-6">
-              <span className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white hover:border-b-2">Statistics</span>
+              <span className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white hover:border-b-2"><a href="#tools">Tools</a></span>
             </li>
 
             <li className="group pl-6">
               <span className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white hover:border-b-2"><a href="https://flavio-foa-dev.github.io/site/" target="_blank" rel="noreferrer">Site</a></span>
             </li>
 
-            <li className="group pl-6">
-              <span className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white hover:border-b-2"><a href="#contact">Contact</a></span>
-            </li>
           </ul>
       </div>
       </div>
