@@ -13,7 +13,7 @@ export default function NavBar() {
           <ul className="flex items-center">
 
             <li className="group pl-6">
-              <span className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white hover:border-b-2"><a href="#/">Perfil</a></span>
+              <span className="cursor-pointer pt-0.5 font-header font-semibold uppercase text-white hover:border-b-2"><a href="/">Perfil</a></span>
             </li>
 
             <li className="group pl-6">
