@@ -12,8 +12,8 @@ function App() {
 
         <Switch>
           <Route exact path="/" component={ Home } />
-          <Route exact path="/perfil" component={ Tools } />
           <Route exact path="/project" component={ Project } />
+          <Route exact path="/tools" component={ Tools } />
           <Route exact path="*" component={ NotFound } />
         </Switch>
 
