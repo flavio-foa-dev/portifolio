@@ -10,7 +10,7 @@ export default function Footer() {
 
         <p className="text-center font-bold text-white" >© Copyright 2022. All right reserved, FOA. </p>
 
-        <div className="flex items-center gap-2">
+        <div id="contact" className="flex items-center gap-2">
           <a href="/" className="text-white  hover:text-red-600"><CiYoutube size="34px"/></a>
           <a href="/" className="text-white hover:text-sky-700"><CiFacebook size="32px"/></a>
           <a href="/" className="text-white hover:text-orange-600"><CiInstagram size="32px"/></a>

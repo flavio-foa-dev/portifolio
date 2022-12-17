@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Project() {
+export default function CardPrject() {
   return (
     <div className="grid grid-cols-1 gap-6 pt-10 sm:grid-cols-2 md:gap-10 md:pt-12 lg:grid-cols-3 bg-violet-50">
 
