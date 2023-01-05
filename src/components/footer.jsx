@@ -16,8 +16,6 @@ export default function Footer() {
           <a href="/" className="text-white hover:text-orange-600"><CiInstagram size="32px"/></a>
           <a href="https://www.linkedin.com/in/flavio-foa/" target="_blank" className="text-white hover:text-sky-700" rel="noreferrer"><CiLinkedin size="32px"/></a>
           <a href="https://github.com/flavio-foa-dev" target="_blank" className="text-white hover:text-gray-800" rel="noreferrer"><VscGithubInverted size="28px"/></a>
-
-
         </div>
 
       </div>
