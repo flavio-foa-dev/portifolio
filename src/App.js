@@ -8,7 +8,7 @@ import Tools from './pages/tools';
 
 function App() {
   return (
-    <div className="">
+    <div className="h-screen">
 
         <Switch>
           <Route exact path="/" component={ Home } />

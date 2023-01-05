@@ -5,10 +5,10 @@ import NavBar from '../components/navBar'
 
 export default function Tools() {
   return (
-    <>
+    <div className="h-screen">
       <Header/>
       <NavBar/>
-      <div className="flex  py-20 " >
+      <div className="flex  py-20  " >
         <h2 className="text-center font-semibold uppercase sm:text-5xl lg:text-6xl">
           Here's what I'm good at
         </h2>
@@ -33,6 +33,6 @@ export default function Tools() {
 
       </div>
       <Footer/>
-    </>
+    </div>
   )
 }

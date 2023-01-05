@@ -4,7 +4,7 @@ import { VscGithubInverted } from 'react-icons/vsc'
 
 export default function Footer() {
   return (
-    <div className="flex justify-center w-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500  ">
+    <div className="flex justify-center w-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500">
 
       <div className="container flex items-center justify-between py-6 px-4 ">
 
